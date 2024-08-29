@@ -1,5 +1,5 @@
 import React from 'react'
-import { notoSansJavanese } from "../page";
+import { notoSansJavanese } from '../components/Footer'
 
 type Props = {
     text: string

@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Rectangle from './Rectangle'
 import ArrowDown from './ArrowDown'
-import { notoSansJavanese, playfairDisplay } from '../page'
+import { playfairDisplay } from './Logo'
+import { notoSansJavanese } from '../components/Footer'
 
 type Props = {
     contentNumber: number

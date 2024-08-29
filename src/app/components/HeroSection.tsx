@@ -3,8 +3,8 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import Rectangle from '../elements/Rectangle'
 import ArrowDown from '../elements/ArrowDown'
-import { playfairDisplay } from '../page'
 import SectionTransition from '../elements/SectionTransition'
+import { playfairDisplay } from '../elements/Logo'
 
 
 export default function HeroSection() {

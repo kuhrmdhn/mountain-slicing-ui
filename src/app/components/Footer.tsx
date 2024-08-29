@@ -1,7 +1,13 @@
 import React from 'react'
-import { notoSansJavanese } from '../page'
 import PageMoreInfo from '../elements/PageMoreInfo'
 import Logo from '../elements/Logo'
+import { Noto_Sans_Javanese } from 'next/font/google'
+
+export const notoSansJavanese = Noto_Sans_Javanese({
+  weight: ["400", "700"],
+  style: ["normal"],
+  subsets: ["javanese", "latin"]
+})
 
 const pageInfo = [
   {
