@@ -24,7 +24,7 @@ const pageInfo = [
 
 export default function Footer() {
   return (
-    <footer className='bg-main min-h-[100svh] h-max min-w-full px-4 lg:p-0 text-main-white flex flex-col gap-7 lg:gap-0 lg:flex-row justify-evenly items-center'>
+    <footer className='bg-main min-h-[100svh] h-max min-w-full px-4 lg:p-0 text-main-white flex flex-col gap-7 lg:gap-0 lg:flex-row justify-evenly items-center text-xs sm:text-base'>
       <div className={`${notoSansJavanese.className} w-11/12 lg:w-2/5 h-1/3 flex flex-col justify-between`}>
         <section className='flex flex-col gap-7'>
           <Logo />
